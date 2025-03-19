@@ -24,7 +24,24 @@ const bigNum = 124352348520394852345n
     number      =>      number
     boolean     =>      boolean
     object      =>      object
-    
+*/
 
 //     https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// --------------------------------------------------------------
+// types of memory
+// Stack(used primitive) and heap memory(non primitive)
+
+let myName = "Sobal Naseeb"
+myNickName = myName
+console.log(myName);
+console.log(myNickName);
+myNickName = "Nichkoo"
+console.log('----------------------------------------');
+
+console.log(myName);
+console.log(myNickName);
+
+
+
 
