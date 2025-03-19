@@ -16,9 +16,11 @@ let stat = ""
 // bigInt
 // string = ""
 // boolean => true/false
-// null => standalone value  ====> data type of null is 'object'
+// null => standalone value  ====> data type of null is ==> 'object'
 // undefined => not defined but exist
 // symbol => unique
+// function => function object (show funciton krata hai lakin documentation mai object hai so 'function object)
+// all reference types => are object typed
 
 // object
 
