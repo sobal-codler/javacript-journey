@@ -26,7 +26,7 @@ console.log(gameName.toUpperCase());    // convert the copy to uppercase
 console.log(gameName.charAt(3));    // we can check at what position which character is
 console.log(gameName.indexOf('n')); // we check the position of any character
 
-
+const newString = gameName.substring(0, 4)      // start from 0 index and end at 3, it doesn't give the
 
 
 
