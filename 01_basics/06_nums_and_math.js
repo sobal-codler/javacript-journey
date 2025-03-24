@@ -10,11 +10,11 @@ const balance = new Number(100)
 
 const otherNumber = 123.3454
 
-console.log(otherNumber.toPrecision(4));
+//console.log(otherNumber.toPrecision(4));
 
 const hundreds = 1000000;
-console.log(hundreds.toLocaleString('en'));
-console.log(hundreds.toLocaleString('en-IN'));
+//console.log(hundreds.toLocaleString('en'));
+//console.log(hundreds.toLocaleString('en-IN'));
 
 /*
 1. Static Methods of Number
@@ -63,4 +63,31 @@ parseInt(string, radix)	                Parses a string and returns an integer.
 */
 
 // --------------------------Math--------------------------
+
+//console.log(Math);  // it is math object built in js
+
+//console.log(Math.abs(-5)); // convert -ive to +ive (absolute)
+//console.log(Math.round(1.345)); // return round of value depend upon 5 above or below
+//console.log(Math.ceil(1.345));  // return round but always give upper value
+//console.log(Math.floor(1.345)); // always give lower value
+
+//console.log(Math.random); // always give random value between 0 to 1
+
+//console.log((Math.random()*10) + 1);
+//console.log(Math.floor(Math.random()*10) + 1);
+
+const min = 10
+const max = 20
+
+for (let index = 0; index < min; index++) {
+    const min = 10
+    console.log(Math.floor(Math.random() * (max - min + 1) + min));
+}
+//console.log(Math.floor(Math.random() * (max - min + 1) + min));    // formula to set range of numbers between specific number
+
+
+
+
+
+
 
