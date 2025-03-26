@@ -42,6 +42,32 @@ const sli = Arrs.slice(1, 3);
 console.log(sli);   // output => [2, 3]
 
 console.log('B', Arrs);
+const spi = Arrs.splice(1, 3);
+console.log(spi);  // output => [2, 3, 4]
+
+console.log('C', Arrs); // output => [1, 5, 6]
+
+/*
+-> slice gives the in between the range it didn't include end index
+-> it also make shallow copies 
+-> didn't change the original array
+-> it can use -ive val, it return from last by -ive val
 
 
+    //slice
+-> it replace or add the values in array
+-> Negative back or end of the array
+
+*/
+
+const months = ["Jan", "March", "April", "June"];
+months.splice(1, 0, "Feb");
+// Inserts at index 1
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, "May");
+// Replaces 1 element at index 4
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "May"]
 
