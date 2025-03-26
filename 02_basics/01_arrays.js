@@ -57,6 +57,14 @@ console.log('C', Arrs); // output => [1, 5, 6]
     //slice
 -> it replace or add the values in array
 -> Negative back or end of the array
+-> It changes the original array (does not make shallow or deep copies)
+
+Return value
+An array containing the deleted elements.
+
+If only one element is removed, an array of one element is returned.
+
+If no elements are removed, an empty array is returned.
 
 */
 
