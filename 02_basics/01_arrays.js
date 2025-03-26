@@ -27,4 +27,21 @@ const myArr1 = new Array(2,3)
 
 const newArr = myArr.join(myArr1)
 console.log(newArr);
+console.log(typeof newArr);
+
+// myArr = [0, 1], myArr1 = [2, 3]
+// output => 02,31   => type is string not array
+// it join the items according to indexing
+
+// diff between slice and splice
+
+const Arrs = [1, 2, 3, 4, 5, 6]
+console.log('A', Arrs);
+
+const sli = Arrs.slice(1, 3);
+console.log(sli);   // output => [2, 3]
+
+console.log('B', Arrs);
+
+
 
