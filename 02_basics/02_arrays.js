@@ -33,6 +33,18 @@ console.log(Array.from('Hitesh'));
 // can convert into array
 // output ==> ['H', 'i', 't', 'e', 's', 'h']
 
+console.log(Array.from({name: 'sobal'}));
+// output => [] return empty arry, you have to tell what to return , value etc
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));
+// output => [100, 200, 300]
+
+
+
 
 
 
