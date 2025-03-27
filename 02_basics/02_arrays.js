@@ -25,6 +25,16 @@ const flatingArr = interestingArr.flat(Infinity)
 
 console.log(flatingArr);
 
+console.log(Array.isArray('Hitesh'));
+// can also ask if array or not
+// output ==> false
+
+console.log(Array.from('Hitesh'));
+// can convert into array
+// output ==> ['H', 'i', 't', 'e', 's', 'h']
+
+
+
 
 
 
