@@ -1,3 +1,7 @@
+// singleton & object literals
+
+// singleton > constructor 
+
 const tinderUser = new Object()     // singleton object
 const tinderUser1 = {}              // Non singleton object
 
