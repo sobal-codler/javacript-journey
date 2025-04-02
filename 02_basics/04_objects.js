@@ -37,3 +37,16 @@ console.log(combining);
 //  output  { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 // first val is target(save all sources), second val is sources
 
+// How to access the keys of object => method
+
+console.log(Object.keys(tinderUser));
+
+// also can access values   => method
+console.log(Object.values(tinderUser));
+
+// interesting method to convert object into arrays
+console.log(Object.entries(tinderUser));
+
+//  check if the object has specific values or not ?
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
