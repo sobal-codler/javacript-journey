@@ -15,7 +15,7 @@ const JsMaster = {
     age: 16,
     mySym1: ('myKey1'),
     mySym2: 'myKey2',
-    [mySym3]: ('myKey3'),
+    [mySym3]: 'myKey3',
     mySym4: 'myKey4',
     location: 'Islamabad',
     email: 'sobalreeb@gmail.com',
@@ -33,10 +33,10 @@ const JsMaster = {
 //console.log(JsMaster['Ful name']);
 
 // if you use symbols then what happens
-console.log(JsMaster.mySym1);
-console.log(typeof JsMaster.mySym1);    // type is string not a symbol
-console.log(JsMaster.mySym2);
-console.log(typeof JsMaster.mySym2);    // type is string not a symbol
+//console.log(JsMaster.mySym1);
+//console.log(typeof JsMaster.mySym1);    // type is string not a symbol
+//console.log(JsMaster.mySym2);
+//console.log(typeof JsMaster.mySym2);    // type is string not a symbol
 
 // for symbol 
 console.log(JsMaster[mySym3]);
