@@ -44,7 +44,15 @@ console.log(typeof (JsMaster[mySym3]));
 console.log(JsMaster['mySym4']);
 console.log(typeof (JsMaster['mySym4']));
 
+JsMaster.greeting =function() {
+    console.log("Hello JS User");
+}
 
+JsMaster.greetingTwo = function () {
+    console.log(`Hello JS user ${this["Ful name"]}`);
+}
+console.log(JsMaster.greeting());
+console.log(JsMaster.greetingTwo());
 
 
 
