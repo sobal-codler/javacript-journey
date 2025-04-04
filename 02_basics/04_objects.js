@@ -56,4 +56,6 @@ const course = {
     courseInstructor: 'Hitesh'
 }
 
-const {courseInstructor} = course
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
