@@ -50,3 +50,10 @@ console.log(Object.entries(tinderUser));
 //  check if the object has specific values or not ?
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+const course = {
+    coursename: 'Js in hinidi',
+    price: '999',
+    courseInstructor: 'Hitesh'
+}
+
+const {courseInstructor} = course
