@@ -8,3 +8,7 @@ if (true) {
 //console.log(a);   // output => a is not defined, blocked scope  
 //console.log(b);   // output => b is not defined, blocked scope  
 console.log(c);     // global scope
+
+//scope in window & node ?
+// both scopes are different
+//  In browsers, the window object serves as the global context, while Node. js uses the global object
