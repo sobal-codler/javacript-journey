@@ -26,7 +26,27 @@ function chai(){
     console.log(this);
 }
 
-chai()
+// chai()
 
 // If you check 'this' in function it will give many diff values 
 // And also we can't use 'this' like we use in objects
+
+const chai1 = function(){
+    let username = 'Kro access'
+    // console.log(this.username);  // It's output => undefined
+    console.log(this);
+}
+
+// chai1()
+
+// arrow function 
+
+const chai2 = () => {
+    let username = 'Kro access'
+    // console.log(this.username);  // It's output => undefined
+    console.log(this);
+}
+
+// chai2()
+
+// In arrow function 'this' will return empty object
