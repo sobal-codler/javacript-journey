@@ -50,3 +50,9 @@ const chai2 = () => {
 // chai2()
 
 // In arrow function 'this' will return empty object
+
+// syntax of arrow funtion
+// () => {}
+// we can hold arrow funciton in variable , let or const
+
+
