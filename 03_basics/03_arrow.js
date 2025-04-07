@@ -19,3 +19,14 @@ faris.welcomemsg()
 
 //  'Node' has empty global object 
 //  that is why 'this' val in node is empty object
+
+function chai(){
+    let username = 'Kro access'
+    // console.log(this.username);  // It's output => undefined
+    console.log(this);
+}
+
+chai()
+
+// If you check 'this' in function it will give many diff values 
+// And also we can't use 'this' like we use in objects
