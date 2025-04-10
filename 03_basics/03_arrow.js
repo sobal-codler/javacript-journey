@@ -24,6 +24,7 @@ function chai(){
     let username = 'Kro access'
     // console.log(this.username);  // It's output => undefined
     console.log(this);
+    // can't use this in function, we can use in objects
 }
 
 // chai()
@@ -52,7 +53,21 @@ const chai2 = () => {
 // In arrow function 'this' will return empty object
 
 // syntax of arrow funtion
-// () => {}
+// () => {}     basic syntax of arrow function
 // we can hold arrow funciton in variable , let or const
 
 
+// const addingTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+// console.log(addingTwo(3, 4));
+
+// const addingTwo = (num1, num2) => num1 + num2
+// console.log(addingTwo(3, 4));
+
+// if you use curly braces you have to use 'return',
+// if not don't necessarily need the return key word
+// if you uses small brackets then also no need to use return
+
+const addingTwo = (num1, num2) => (num1 + num2)
+console.log(addingTwo(3, 4));
