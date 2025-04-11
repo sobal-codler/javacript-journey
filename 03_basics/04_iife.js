@@ -23,3 +23,4 @@
     
 } )('Kaky');
 
+// If you want to use 2 or more iife simulatnously you must have to use semicolon (;)
