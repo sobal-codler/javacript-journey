@@ -19,3 +19,10 @@
 // Execution Context is like a big box or container where all JavaScript code is executed. 
 // Also, before continuing reading remember that JavaScript is a synchronous single-threaded 
 // language. Single-threaded means that JavaScript can execute one command at a time.
+
+// In call stack it use lifo(last in first out)
+
+// In programming, a call stack is an ordered list of the 
+// functions (or stack frames) a program has to execute before 
+// it returns a result. It has a Last In, First Out (LIFO) structure 
+// where new functions added are pushed to the top of the stack.
