@@ -13,9 +13,10 @@ if( temperature < 50) {
 
 const score = 200;
 
-if(score > 100){
-    let power = 'fly';
-    console.log(`User power: ${power}`);    
-}
-console.log(`User has power of ${power}`);
+// if(score > 100){
+//     let power = 'fly';      // scope of let is not global (it is block scope)
+//     console.log(`User power: ${power}`);    
+// }
+// console.log(`User has power of ${power}`);
+
 
